@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/advinteck/Bureau/Play/test/conf/routes:22:1: Cannot use a method returning Unit as a Handler for requests[0m
+[0m[[0m[31merror[0m] [0m[0mGET		/impression	        		controllers.EtudiantController.generationPdf[0m
+[0m[[0m[31merror[0m] [0m[0m/home/advinteck/Bureau/Play/test/conf/routes:22:1: not enough arguments for method createInvoker: (implicit hif: play.core.routing.HandlerInvokerFactory[Unit])play.core.routing.HandlerInvoker[Unit].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter hif.[0m
+[0m[[0m[31merror[0m] [0m[0mGET		/impression	        		controllers.EtudiantController.generationPdf[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -1,0 +1,20 @@
+@(classe : models.tables.pojos.Classe)
+@import helper._
+
+@main("Welcome to Play") {
+  <h1>Modifier une classe!</h1>
+  
+  <form action="@routes.ClasseController.updateClasse()" method="POST">
+  @CSRF.formField
+  <fieldset>
+  <legend>Modification de la classe</legend>	
+  		<input name="id" value="@classe.getId" type="hidden">
+	    <label for="libelle">Libelle classe :</label>
+	    <input type="text" id="libelle" name="libelle" value="@classe.getLibelle">
+	    
+        	<input type="submit" value="Enregistrer">
+        	
+    </fieldset>
+ </form>
+ 
+}

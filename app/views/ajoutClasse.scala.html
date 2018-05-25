@@ -1,0 +1,20 @@
+@()
+@import helper._
+
+@main("Welcome to Play") {
+  <h1>Ajouter une classe!</h1>
+  
+  <form action="@routes.ClasseController.saveClasse()" method="POST">
+  @CSRF.formField
+  <fieldset>
+  <legend>Ajout classe</legend>	
+  
+	    <label for="libelle">Libelle classe :</label>
+	    <input type="text" id="libelle" name="libelle">
+	    
+        	<input type="submit" value="Save">
+        	
+    </fieldset>
+ </form>
+ 
+}

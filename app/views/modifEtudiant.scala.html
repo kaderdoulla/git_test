@@ -1,0 +1,39 @@
+@(etudiant: models.tables.pojos.Etudiants, classes: List[models.tables.pojos.Classe])
+
+@import helper._
+
+@main("Welcome to Play") {
+  <h1>Modifier un etudiant!</h1>
+  
+  <form action="@routes.EtudiantController.updateEtudiant()" method="POST">
+  @CSRF.formField
+  <fieldset>
+  <legend>Modification d'un etudiant</legend>	
+  		<input name="id" value="@etudiant.getId" type="hidden">
+	    <label for="nom">Nom etudiant :</label>
+	    <input type="text" id="nom" name="nom" value="@etudiant.getNom"><br/><br/>
+	    
+	    <label for="promon">Prenom etudiant :</label>
+	    <input type="text" id="promon" name="promon" value="@etudiant.getPromon"><br/><br/>
+	    
+	    <label for="telephone">Téléphone etudiant :</label>
+	    <input type="text" id="telephone" name="telephone" value="@etudiant.getTelephone"><br/><br/>
+	    
+	    <label for="dateNaissance">Date naissance :</label>
+	    <input type="text" id="dateNaissance" name="dnaissance" value="@etudiant.getDateNaissance"><br/><br/>
+	    
+	    <label for="idClasse">Libelle clase :</label>
+	    <select name="idClasse" id="idclasse">
+	   		 <option value="">--- Choisir classe ---</option>
+	   		 @for(cls <- classes){
+	   		 	<option @if(etudiant.getIdClasse == cls.getId){selected} value="@cls.getId">@cls.getLibelle</option>
+	   		 }
+	    </select>
+	    <br/><br/>
+	    
+        	<input type="submit" value="Enregistrer">
+        	
+    </fieldset>
+ </form>
+ 
+}

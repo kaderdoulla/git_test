@@ -1,0 +1,37 @@
+@(etudiants: List[models.tables.pojos.Etudiants] )
+ 
+@main("Welcome to Play") {
+  <h1>Welcome to Play!</h1>
+  
+        <div class="button">
+        	<a href="/ajoutEtudiant">Ajout Etudiant</a>
+    	</div><br/><div>
+        	<a href="@routes.EtudiantController.generationPdf()">Impression</a>
+    	</div><br/>
+ 		<table border="">
+                <tr>
+                    <td>Nom</td>
+                    <td>Prénom</td>
+                    <td>Téléphone</td>
+                    <td>Date de Naissance</td>
+                    <td>Libelle classe</td>
+                    <td colspan="2">Action</td>
+                </tr>
+                 @for(etu <- etudiants) {
+                <tr>
+                    <td>@etu.getNom</td>
+                    <td>@etu.getPromon</td>
+                    <td>@etu.getTelephone</td>
+                    <td>@etu.getDateNaissance</td>
+                    <td>@etu.getIdClasse</td>
+                    <td>
+					<a href="@routes.EtudiantController.modifEtudiant(etu.getId)">Modifier</a>
+					</td>
+					  <td>
+       				 <a href="@routes.EtudiantController.deleteEtudiant(etu.getId)">Supprimer</a>
+					</td>
+                </tr>
+                }
+ 		</table>
+
+}

@@ -1,0 +1,29 @@
+@(classes: List[models.tables.pojos.Classe] )
+ 
+@main("Welcome to Play") {
+  <h1>Welcome to Play!</h1>
+  
+        <div class="button">
+        	<a href="/ajoutClasse">Ajout classe</a>
+    	</div></br>
+ 		<table border="">
+                <tr>
+                    <td>Id</td>
+                    <td>Libelle de la classe</td>
+                    <td colspan="2">Action</td>
+                </tr>
+                 @for(cls <- classes) {
+                <tr>
+                    <td>@cls.getId</td>
+                    <td>@cls.getLibelle</td>
+                    <td>
+					<a href="@routes.ClasseController.modifClasse(cls.getId)">Modifier</a>
+					</td>
+					  <td>
+       				 <a href="@routes.ClasseController.deleteClasse(cls.getId)">Supprimer</a>
+					</td>
+                </tr>
+                }
+ 		</table>
+
+}

@@ -1,0 +1,141 @@
+2018-05-18 09:25:10,468 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2018-05-18 09:25:10,653 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:postgresql://localhost:5432/dbTest
+2018-05-18 09:25:11,654 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-2 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-05-18 09:25:11,911 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-18 09:25:11,916 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev)
+2018-05-18 09:25:18,875 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:18,876 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:25:18,886 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:18,951 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:18,980 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:25:27,078 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:27,081 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:25:27,082 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:27,089 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:27,090 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:25:39,247 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-9 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:39,248 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-9 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:25:39,249 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-9 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:39,251 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-9 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:25:39,252 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-9 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:27:34,131 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-3 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:27:34,132 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-3 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:27:34,132 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-3 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:27:34,134 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-3 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:27:34,135 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-3 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:28:59,342 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.
+2018-05-18 09:28:59,610 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-26 - Creating Pool for datasource 'default'
+2018-05-18 09:28:59,624 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-26 - Database [default] connected at jdbc:postgresql://localhost:5432/dbTest
+2018-05-18 09:28:59,799 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-26 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-05-18 09:28:59,891 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-26 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-18 09:28:59,891 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-26 - Application started (Dev)
+2018-05-18 09:29:02,042 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:29:02,042 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:29:02,043 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:29:02,044 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:29:02,045 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:34:47,272 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:34:47,273 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:34:47,273 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:34:47,274 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:34:47,275 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:36:42,558 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2018-05-18 09:36:42,733 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-41 - Creating Pool for datasource 'default'
+2018-05-18 09:36:42,744 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-41 - Database [default] connected at jdbc:postgresql://localhost:5432/dbTest
+2018-05-18 09:36:42,867 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-41 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-05-18 09:36:42,974 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-41 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-18 09:36:42,976 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-41 - Application started (Dev)
+2018-05-18 09:36:47,648 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-5 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:36:47,648 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-5 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:36:47,650 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-5 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:36:47,651 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-5 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:36:47,652 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-5 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:36:56,995 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:36:56,998 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:36:57,000 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:36:57,001 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:36:57,002 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:38:12,692 [INFO] from application in application-akka.actor.default-dispatcher-7 - Shutting down connection pool.
+2018-05-18 09:38:12,893 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-52 - Creating Pool for datasource 'default'
+2018-05-18 09:38:12,906 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-52 - Database [default] connected at jdbc:postgresql://localhost:5432/dbTest
+2018-05-18 09:38:13,054 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-52 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-05-18 09:38:13,165 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-52 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-18 09:38:13,167 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-52 - Application started (Dev)
+2018-05-18 09:38:15,847 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:38:15,847 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:38:15,849 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:38:15,850 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:38:15,851 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:39:31,720 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2018-05-18 09:39:31,907 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-74 - Creating Pool for datasource 'default'
+2018-05-18 09:39:31,914 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-74 - Database [default] connected at jdbc:postgresql://localhost:5432/dbTest
+2018-05-18 09:39:32,018 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-74 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-05-18 09:39:32,123 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-74 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-18 09:39:32,124 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-74 - Application started (Dev)
+2018-05-18 09:39:33,695 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:39:33,696 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:39:33,698 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:39:33,699 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:39:33,700 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-4 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:42:04,320 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-2 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:42:04,322 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-2 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:42:04,323 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-2 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:42:04,325 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-2 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:42:04,327 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-2 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:45:01,785 [INFO] from application in application-akka.actor.default-dispatcher-16 - Shutting down connection pool.
+2018-05-18 09:45:01,906 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-97 - Creating Pool for datasource 'default'
+2018-05-18 09:45:01,912 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-97 - Database [default] connected at jdbc:postgresql://localhost:5432/dbTest
+2018-05-18 09:45:01,993 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-97 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-05-18 09:45:02,087 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-97 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-18 09:45:02,087 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-97 - Application started (Dev)
+2018-05-18 09:45:02,106 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:45:02,106 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:45:02,108 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:45:02,108 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:45:02,109 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-6 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:56:10,419 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2018-05-18 09:56:10,521 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-112 - Creating Pool for datasource 'default'
+2018-05-18 09:56:10,527 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-112 - Database [default] connected at jdbc:postgresql://localhost:5432/dbTest
+2018-05-18 09:56:10,616 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-112 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-05-18 09:56:10,700 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-112 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-05-18 09:56:10,700 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-112 - Application started (Dev)
+2018-05-18 09:56:10,711 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-8 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:56:10,712 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-8 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
+2018-05-18 09:56:10,713 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-8 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:56:10,713 [WARN] from net.sf.jasperreports.engine.component.ComponentsEnvironment in application-akka.actor.default-dispatcher-8 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/components
+2018-05-18 09:56:10,713 [WARN] from net.sf.jasperreports.engine.part.PartComponentsEnvironment in application-akka.actor.default-dispatcher-8 - Found two components for namespace http://jasperreports.sourceforge.net/jasperreports/parts
