@@ -16,7 +16,6 @@ public class Connexion {
 	public  DSLContext connection(Connection connex){
 		try {
 			Class.forName(driver);
-			//this.cnx = DriverManager.getConnection(this.getUrl(), this.getUser(),this.getPasswd());
 			return DSL.using(connex, SQLDialect.POSTGRES_9_5);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -32,7 +31,6 @@ public class Connexion {
 			this.cnx = DriverManager.getConnection(this.url, this.user,this.passwd);
 			return this.cnx;
 		} catch (Exception e) {
-			// TODO: handle exception
 			return null;
 		}
 	}

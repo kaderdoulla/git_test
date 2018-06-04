@@ -18,4 +18,7 @@ libraryDependencies ++= Seq(
 // https://mvnrepository.com/artifact/org.jooq/jooq 
 libraryDependencies += "org.jooq" % "jooq" % "3.10.1"
 
+import com.typesafe.sbteclipse.core.EclipsePlugin.EclipseKeys
+EclipseKeys.skipParents in ThisBuild := false
+
 
